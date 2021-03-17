@@ -5,28 +5,28 @@
          "context_set": ""
         },
         {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
          "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
          "context_set": ""
         },
-        {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
+        {"tag": "info",
+         "patterns": ["how you born", "what is used to create you", "what technology used for you?"],
+         "responses": ["Using tensorflow and tflearn you can create a simple intent based chatbot!"],
          "context_set": ""
         },
         {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "what are you?", "what do you do?"],
+         "responses": ["I'm a chatbot created by adiprogrammer", "A chatbot program, I talk to the people :)", "I'm a lower level jarvis/intent based chatbot"],
          "context_set": ""
         },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
-         "context_set": ""
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
         },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+        {"tag": "funny",
+         "patterns": ["I'm bored", "Life is hard", "I don't wanna live", "I'm sad", "I'm unhappy"],
+         "responses": ["I don't know how to tell a joke!", "Yeah life sucks sometimes but that's the life :)"],
          "context_set": ""
         }
    ]
