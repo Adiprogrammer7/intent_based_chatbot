@@ -1,26 +1,26 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good morning", "hey"],
-         "responses": ["Hello!!!", "Good to see you!", "Hi there, how can I help?", "Hey genius, what's up?"],
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "hey"],
+         "responses": ["Hello! Good to see you!", "Hi there, how can I help?", "Hey genius, what's up?"],
          "context_set": ""
         },
         {"tag": "goodbye",
          "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
-         "responses": ["Sad to see you go :(", "Talk to you later...", "Goodbye!"],
+         "responses": ["See you soon pal...", "Goodbye! Have a nice day."],
          "context_set": ""
         },
         {"tag": "booking",
-         "patterns": ["book a room", "do you have rooms?", "room reservation"],
+         "patterns": ["book room", "do you have any rooms?", "room reservation", "I want to book room"],
          "responses": ["Do you want a single room or multiple rooms?"],
          "context_set": "rooms_num"
         },
         {"tag": "one_room",
-         "patterns": ["1", "one", "single"],
+         "patterns": ["single room", "one room", "1 room"],
          "responses": ["Okay, we got you covered for 1 room!"],
          "context_filter": "rooms_num"
         },
         {"tag": "multiple_rooms",
-         "patterns": ["many", "multiple rooms", "more than 1"],
+         "patterns": ["many", "multiple rooms", "more than 1 rooms"],
          "responses": ["Okay, please visit our website and book multiple rooms!"],
          "context_filter": "rooms_num"
         },
@@ -31,11 +31,11 @@
         },
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-         "responses": ["Happy to help!", "Goodbye, love you 3000!", "My pleasure!"],
-         "context": [""]
+         "responses": ["Happy to help!", "Love you 3000!", "My pleasure!"],
+         "context_set": ""
         },
         {"tag": "address",
-         "patterns": ["Where is your hotel?", "Where is this place?", "what's the location?", "where to find hotel?", "Give me your location", "what is the address?"],
+         "patterns": ["address", "Where is this place?", "where to find hotel?", "Give me location", "what is the address?"],
          "responses": ["Our hotel is located at 'Malibu Point 10880, 90265' :)"],
          "context_set": ""
         }
