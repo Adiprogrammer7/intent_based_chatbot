@@ -18,5 +18,6 @@ model by running ```training_chatbot.ipynb```.
 
 ## Preview:
 You can see here, the inputs given by the user are not identical to the patterns mentioned in ```intents.json``` file, still model is efficient enough to predict for the trained
-scope.    
+scope. 
 
+![preview_screenshot](https://user-images.githubusercontent.com/30752980/112297673-32dcbf00-8cbc-11eb-92a0-760ececf79bb.png)
