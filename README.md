@@ -1,8 +1,8 @@
 # intent_based_chatbot
 
-A intent based chatbot in python with tflearn and tensorflow. It can be trained for a specific purpose and works well within that specific scope. The ```intents.json``` file can
+An intent-based chatbot in python with tflearn and tensorflow. It can be trained for a specific purpose and works well within that specific scope. The ```intents.json``` file can
 be updated based on purpose and even if statement pattern given from the user varies from the patterns on which model is trained, the model still will give accurate results. The 
-model gives probabilities for different tags based on the input and then appropriate response corresponding to that tag is returned.
+model gives probabilities for different tags based on the input and then appropriate response corresponding to that tag is returned. That response is also piped out with pyttx3 which is a text-to-speech conversion library.
 
 ## To run:
 Clone the repo to your local machine:
@@ -21,3 +21,5 @@ You can see here, the inputs given by the user are not identical to the patterns
 scope. 
 
 ![preview_screenshot](https://user-images.githubusercontent.com/30752980/112297673-32dcbf00-8cbc-11eb-92a0-760ececf79bb.png)
+
+### Feel free for any useful contribution :)
